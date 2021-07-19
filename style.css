@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+
+.main{
+    width: 35%;
+    margin: 0 auto;
+    padding: 1em;
+    background: #ffffff;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.411);
+}
+
+.form-group{
+    padding: 0.2em;
+    margin-bottom: 0.6em;
+}
+
+.form-control{
+    display: block;
+    min-width: 100%;
+    padding: 0.4em;
+}
+
+.btn{
+    padding: 0.5em;
+}
+
+@media screen and (max-width: 550px){
+    .main{
+        width: 90% !important;
+    }
+}
